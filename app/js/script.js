@@ -1,16 +1,1 @@
 console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
-console.log("this file is loaded properly");
