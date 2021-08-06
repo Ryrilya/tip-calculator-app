@@ -1,0 +1,23 @@
+// breakpoints are referenced to those written in the style guide
+
+$breakpoints-up: (
+  'mobile': '23,4375em', // 375px
+	'desktop': '90em',   // 1440px
+);
+
+$breakpoints-down: (
+	'mobile': '23,375‬em',   // 374x,
+	'large': '89,9375em',   // 1439px
+);
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($map: $breakpoint-up, $key: $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down($size) {
+  @media (min-width: map-get($map: $breakpoint-down, $key: $size)) {
+    @content;
+  }
+}
